@@ -55,6 +55,23 @@ controller('AppCtrl', function ($scope, $cordovaDeviceMotion, mySocket) {
     $scope.setIP($scope.ip);
   }
 
+  $scope.autoFiring = false;
+  $scope.fire = function() {
+    if (socket) {
+      socket.emit('fire', {});
+      if ($scope.autoFiring) {
+        socket.emit('autofire', {autofire: false});
+      }
+    }
+    $scope.autoFiring = false;
+  }
+  $scope.autofire = function() {
+    $scope.autoFiring = true;
+    if (socket) {
+      socket.emit('autofire', {autofire: false});
+    }
+  }
+
   var handleUpdate = function(result) {
     $scope.x = result.x;
     $scope.y = result.y;

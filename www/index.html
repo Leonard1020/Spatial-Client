@@ -54,6 +54,10 @@
         <p>x: {{ x }}</p>
         <p>y: {{ y }}</p>
         <p>z: {{ z }}</p>
+        <div>
+          <button style="width:50%; height:25vh" ng-click="autofire()" ng-disabled="autoFiring">Auto Fire</button>
+          <button style="width:50%; height:25vh" ng-click="fire()">Fire!</button>
+        </div>
       </ion-content>
     </ion-pane>
   </body>
