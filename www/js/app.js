@@ -68,7 +68,7 @@ controller('AppCtrl', function ($scope, $cordovaDeviceMotion, mySocket) {
   $scope.autofire = function() {
     $scope.autoFiring = true;
     if (socket) {
-      socket.emit('autofire', {autofire: false});
+      socket.emit('autofire', {autofire: true});
     }
   }
 
