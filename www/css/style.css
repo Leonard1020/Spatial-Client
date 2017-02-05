@@ -1,2 +1,17 @@
 /* Empty. Add your own CSS if you like */
 .ng-invalid  { border: 1px solid red; }
+
+.auto {
+	margin-left: 2%; 
+	margin-right: 2%; 
+	float: left;
+	width:47%; 
+	height:25vh;
+}
+
+.fire {
+	margin-right: 2%;
+	float: left; 
+	width:47%; 
+	height:25vh;
+}
