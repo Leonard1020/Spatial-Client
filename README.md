@@ -23,6 +23,12 @@ Enable the desired platform. Use ```android``` for android devices and ```ios```
 $ ionic platform add android
 ```
 
+Install the motion plugin that allows the app to read the device's orientation.
+
+```
+$ ionic plugin add cordova-plugin-device-motion
+```
+
 Plug in your device and run the following command to build and run the app. Again, use ```android``` for android devices and ```ios``` for iOS devices.
 
 ```
