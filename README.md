@@ -30,7 +30,7 @@ $ ionic run android
 ```
 
 ## Connecting
-The client need to know the address of the game server. This can be found here.
+The client need to know the address of the game server. This can be found on the server page.
 
 ![server side](readme_images/server.PNG)
 
