@@ -32,8 +32,8 @@ $ ionic run android
 ## Connecting
 The client need to know the address of the game server. This can be found here.
 
-![server side](https://github.com/Leonard1020/Spatial-Client/readme_images/server.png)
+![server side](https://github.com/Leonard1020/Spatial-Client/blob/master/readme_images/server.png)
 
 Enter the IP address into the input and you are good to go!
 
-![server side](https://github.com/Leonard1020/Spatial-Client/readme_images/phone.png)
+![server side](https://github.com/Leonard1020/Spatial-Client/blob/master/readme_images/phone.PNG)
